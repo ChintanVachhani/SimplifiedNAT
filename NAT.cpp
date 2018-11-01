@@ -84,9 +84,9 @@ void NAT::loadAddressMappingsFromFile(string fileName) {
             this->mapAddress(original, translated);
         }
         file.close();
-        cout << "NAT file loaded successfully.";
+        cout << "NAT file loaded successfully." << endl;
     } else {
-        cout << "Unable to open file.";
+        cout << "Unable to open file." << endl;
     }
 }
 
@@ -114,11 +114,11 @@ void NAT::translateAddressFromFileAndWriteToFile(string inputFileName, string ou
             }
             inputFile.close();
             outputFile.close();
-            cout << "OUTPUT file generated successfully.";
+            cout << "OUTPUT file generated successfully." << endl;
         } else {
-            cout << "Unable to open input file.";
+            cout << "Unable to open input file." << endl;
         }
     } else {
-        cout << "Unable to open output file.";
+        cout << "Unable to open output file." << endl;
     }
 }
