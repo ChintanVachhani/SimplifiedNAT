@@ -3,10 +3,10 @@ A simplified version of Network Address Translation (NAT).
 
 
 ### General Information
-* Run the project from 'main.cpp' using the provided C_Makefile.
+* Run the project from 'main.cpp' using the provided cmake file.
 * Remember to make sure the project working directory is the repository's folder.
 * __Address__ class is used to represent the network address.
-* __NAT__ class handles the implementation for the solution. It uses a map based data structure to represent the network address mappings. It provided methods to - 
+* __NAT__ class handles the implementation for the solution. It uses a map based data structure to represent the network address mappings. It provides methods to - 
   * map a network address to another
   * translate a network address to its corresponding mapping
   * load all the mapping from an input file
